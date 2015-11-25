@@ -1,6 +1,6 @@
 machine:
   xcode:
-    version: "6.3.1"
+    version: “7.0.0”
 
 general:
   branches:
@@ -17,7 +17,7 @@ test:
       xcodebuild
         -scheme "FXLoadingView"
         -sdk iphonesimulator
-        -destination 'platform=iOS Simulator,OS=8.1,name=iPhone 6'
+        -destination 'platform=iOS Simulator,OS=9.0,name=iPhone 6'
         -project FXLoadingView.xcodeproj
         -configuration Debug
         CODE_SIGNING_REQUIRED=NO
