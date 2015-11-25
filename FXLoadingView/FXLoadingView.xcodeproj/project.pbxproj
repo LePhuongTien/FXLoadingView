@@ -173,6 +173,7 @@
 				TargetAttributes = {
 					9E2383341AE7A18700698276 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = QG598U658S;
 					};
 					9E23834D1AE7A18700698276 = {
 						CreatedOnToolsVersion = 6.2;
@@ -351,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FXLoadingView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FXLoadingView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,6 +423,7 @@
 				9E23835A1AE7A18800698276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E23835B1AE7A18800698276 /* Build configuration list for PBXNativeTarget "FXLoadingViewTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +432,7 @@
 				9E23835D1AE7A18800698276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
