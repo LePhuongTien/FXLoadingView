@@ -1,0 +1,4 @@
+language: objective-c
+script:
+  - xctool -workspace FXLoadingView.xcworkspace -scheme FXLoadingView -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xctool test -workspace FXLoadingView.xcworkspace -scheme FXLoadingViewTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
