@@ -7,7 +7,7 @@ checkout:
     - git submodule update --init
 dependencies:
   pre:
-    - brew uninstall xctool && brew install --HEAD xctool
+    
 test:
   override:
     - xctool
